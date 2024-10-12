@@ -1,5 +1,7 @@
 # Reporte del analisis exploratorio y codigo fuente
 
+### Aspectos generales
+
 ### Listado de funcionalidades
 
 1. Exportado de miembros: Esta funcionalidad nos permite generar un archivo en formato .CSV que contiene la siguiente informacion: ID, correo asociado, nombre, nota, si esta sucrito o no a los correos, plan complementaario, ID de la pasarela de pago de Strip, fecha de creacion, Fecha de eliminado, etiquetas y rango (Tier)
@@ -9,3 +11,10 @@
     - Correo (Formato de correo electronico, obligatorio unico)
     - Etiquetas (Formato de texto, no obligatorio)
     - Nota (Formato de texto, maximo 500 caracteres, no obligatorio)
+
+
+### Modelo de dominio
+
+### Modelo de GUI
+
+### Inventarios de pruebas
