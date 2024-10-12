@@ -23,6 +23,10 @@
 13. **Eliminar una etiqueta:** Se permite eliminar una etiqueta ya creada.
 
 ## Modelo de dominio
+En esta imagen se describe el modelo de dominio de la aplicacion Ghost expresado con un modelo ER en formato UML.
+![Untitled](https://github.com/user-attachments/assets/5a568774-87f0-46c0-95da-1e458bdc7f2f)
+
+En caso de no apreciarse bien la imagen, con el siguiente [link](https://dbdiagram.io/d/670aea1797a66db9a3c481d9) se puede tener una mejor visualizacion.
 
 ## Modelo de GUI
 En esta imagen se describe todo el modelo de GUI de la seccion de Admin del software Ghost
