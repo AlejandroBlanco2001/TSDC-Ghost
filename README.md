@@ -26,7 +26,7 @@
 
 ## Modelo de GUI
 En esta imagen se describe todo el modelo de GUI de la seccion de Admin del software Ghost
-![ModeloGUI](https://github.com/user-attachments/assets/9c71458f-eaab-4ab5-b5cb-58018a88e4d3)
+![ModeloGUI](https://github.com/user-attachments/assets/b4ee2b6d-1942-4130-8a46-cba66160ec5b)
 
 
 En caso de no apreciarse bien la imagen, con el siguiente [llnk](https://lucid.app/lucidchart/f028b547-b400-4eeb-b9eb-30760491aef1/edit?viewport_loc=-2716%2C330%2C8592%2C4647%2C0_0&invitationId=inv_bb418780-a849-4bd3-b767-c87482ee7e28) puede acceder al sitio donde esta alojado y visualizarlo de una mejor manera.
