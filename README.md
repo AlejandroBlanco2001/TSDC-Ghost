@@ -23,7 +23,7 @@
 13. **Eliminar una etiqueta:** Se permite eliminar una etiqueta ya creada.
 
 ## Modelo de dominio
-### Glsoario
+### Glosario
 | Tabla                  | Descripción                                                                                                                                         | Tipo de Entidad |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
 | `newsletters`         | Contiene información sobre los boletines disponibles en el sistema para gestionar los boletines disponibles.      | class          |
