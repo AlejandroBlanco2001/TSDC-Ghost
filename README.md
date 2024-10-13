@@ -31,37 +31,37 @@ Se realizaron en total 35 pruebas pruebas exploratorias, que se pueden encontrar
 
 ## Modelo de dominio
 ### Glosario
-| Tabla                  | Descripción                                                                                                                                         | Tipo de Entidad |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| `newsletters`         | Contiene información sobre los boletines disponibles en el sistema para gestionar los boletines disponibles.      | class          |
-| `posts`               | Almacena las publicaciones o artículos vinculados a los boletines.               | class          |
-| `users`               | Gestiona la información de los usuarios del sistema para identificar y autenticar usuarios.                 | class          |
-| `posts_authors`       | Define la relación entre publicaciones y autores.            | class          |
-| `roles`               | Contiene los roles disponibles en el sistema (e.g., administrador, editor) para definir niveles de acceso y permisos de usuarios.                   | class          |
-| `roles_users`         | Asocia roles con usuarios, permitiendo asignar permisos a los usuarios según el rol que tienen en el sistema.                                        | class          |
-| `permissions`         | Define los permisos disponibles, especificando qué acciones se pueden realizar sobre ciertos objetos.              | class          |
-| `permissions_roles`   | Relaciona roles con permisos para establecer las acciones permitidas según el rol.                         | class          |
-| `permissions_users`   | Asocia permisos específicos a usuarios.                    | class          |
-| `members`             | Gestiona la información de los miembros suscritos a los boletines, almacenando detalles como correo y estado (gratuito o de pago).                   | class          |
-| `tags`                | Almacena etiquetas asociables a los miembros o las publicaciones..                             | class          |
-| `subscriptions`       | Contiene información de las suscripciones de los miembros.                    | class          |
-| `products`            | Define los productos o niveles de suscripción disponibles, estructurando las opciones de suscripción en el sistema.                                  | class          |
-| `posts_meta`          | Almacena metadatos asociados a las publicaciones.                        | class          |
-| `comments`            | Gestiona los comentarios de los miembros en las publicaciones.| class          |
-| `members_products`    | Asocia miembros con los productos que han adquirido.          | class          |
-| `members_stripe_customers` | Almacena la relación entre miembros y sus identificadores en Stripe para gestionar pagos y suscripciones mediante la integración con Stripe.      | class          |
-| `stripe_prices`       | Define los precios de los productos en Stripe, incluyendo el monto y su relación con un producto, para la configuración de precios y facturación.    | class          |
+| Tabla                      | Descripción                                                                                                                                       | Tipo de Entidad |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| `newsletters`              | Contiene información sobre los boletines disponibles en el sistema para gestionar los boletines disponibles.                                      | class           |
+| `posts`                    | Almacena las publicaciones o artículos vinculados a los boletines.                                                                                | class           |
+| `users`                    | Gestiona la información de los usuarios del sistema para identificar y autenticar usuarios.                                                       | class           |
+| `posts_authors`            | Define la relación entre publicaciones y autores.                                                                                                 | class           |
+| `roles`                    | Contiene los roles disponibles en el sistema (e.g., administrador, editor) para definir niveles de acceso y permisos de usuarios.                 | class           |
+| `roles_users`              | Asocia roles con usuarios, permitiendo asignar permisos a los usuarios según el rol que tienen en el sistema.                                     | class           |
+| `permissions`              | Define los permisos disponibles, especificando qué acciones se pueden realizar sobre ciertos objetos.                                             | class           |
+| `permissions_roles`        | Relaciona roles con permisos para establecer las acciones permitidas según el rol.                                                                | class           |
+| `permissions_users`        | Asocia permisos específicos a usuarios.                                                                                                           | class           |
+| `members`                  | Gestiona la información de los miembros suscritos a los boletines, almacenando detalles como correo y estado (gratuito o de pago).                | class           |
+| `tags`                     | Almacena etiquetas asociables a los miembros o las publicaciones..                                                                                | class           |
+| `subscriptions`            | Contiene información de las suscripciones de los miembros.                                                                                        | class           |
+| `products`                 | Define los productos o niveles de suscripción disponibles, estructurando las opciones de suscripción en el sistema.                               | class           |
+| `posts_meta`               | Almacena metadatos asociados a las publicaciones.                                                                                                 | class           |
+| `comments`                 | Gestiona los comentarios de los miembros en las publicaciones.                                                                                    | class           |
+| `members_products`         | Asocia miembros con los productos que han adquirido.                                                                                              | class           |
+| `members_stripe_customers` | Almacena la relación entre miembros y sus identificadores en Stripe para gestionar pagos y suscripciones mediante la integración con Stripe.      | class           |
+| `stripe_prices`            | Define los precios de los productos en Stripe, incluyendo el monto y su relación con un producto, para la configuración de precios y facturación. | class           |
 
 
 ### Modelo Entidad-Relacion
 En esta imagen se describe el modelo de dominio de la aplicacion Ghost expresado con un modelo Entidad-Relacion en formato UML.
-![Untitled](https://github.com/user-attachments/assets/5a568774-87f0-46c0-95da-1e458bdc7f2f)
+![ER](assets/ER.png)
 
 En caso de no apreciarse bien la imagen, con el siguiente [link](https://dbdiagram.io/d/670aea1797a66db9a3c481d9) se puede tener una mejor visualizacion.
 
 ## Modelo de GUI
 En esta imagen se describe todo el modelo de GUI de la seccion de Admin del software Ghost
-![ModeloGUI](https://github.com/user-attachments/assets/b4ee2b6d-1942-4130-8a46-cba66160ec5b)
+![ModeloGUI](assets/GUI.jpeg)
 
 
 En caso de no apreciarse bien la imagen, con el siguiente [link](https://lucid.app/lucidchart/f028b547-b400-4eeb-b9eb-30760491aef1/edit?invitationId=inv_bb418780-a849-4bd3-b767-c87482ee7e28) puede acceder al sitio donde esta alojado y visualizarlo de una mejor manera.
