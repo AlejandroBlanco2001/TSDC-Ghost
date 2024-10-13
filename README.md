@@ -3,7 +3,7 @@
 ## Aspectos generales
 En el siguiente documento realizamos un proceso de pruebas exploratorias a la aplicación [Ghost](https://github.com/TryGhost/Ghost) en su versión **5.96.0**.
 
-La instalación se realizó utilizando docker usando la imagen publicada en DockerHub.
+La instalación se realizó [utilizando docker](https://github.com/AlejandroBlanco2001/TSDC-Ghost/blob/main/docker-compose.yaml) usando la imagen publicada en DockerHub.
 
 ## Listado de funcionalidades
 
