@@ -1,0 +1,10 @@
+services:
+
+  ghost:
+    image: ghost:5.96.0
+    restart: always
+    ports:
+      - 8080:2368
+    environment:
+      url: http://localhost:8080
+      NODE_ENV: development
