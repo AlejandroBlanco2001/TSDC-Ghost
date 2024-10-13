@@ -1,6 +1,9 @@
 # Proyecto Pruebas TSDC Ghost
 
 ## Aspectos generales
+En el siguiente documento realizamos un proceso de pruebas exploratorias a la aplicación [Ghost](https://github.com/TryGhost/Ghost) en su versión **5.96.0**.
+
+La instalación se realizó utilizando docker usando la imagen publicada en DockerHub.
 
 ## Listado de funcionalidades
 
@@ -21,6 +24,10 @@
 11. **Crear etiquera:** Se puede crear una etiqueta, este es un elemento de organización bajo agrupación, se provee un nombre, descripción y post asociados.
 12. **Editar una etiqueta:** Se puede editar todos los datos de una etiqueta.
 13. **Eliminar una etiqueta:** Se permite eliminar una etiqueta ya creada.
+
+## Inventarios de pruebas
+
+Se realizaron en total 35 pruebas pruebas exploratorias, que se pueden encontrar [en el siguiente enlace](https://docs.google.com/spreadsheets/d/1gklaQxAkydfXaS4hcxnZuxBSZgT-lZ4tlIORC-qoN8I/edit?usp=sharing)
 
 ## Modelo de dominio
 ### Glosario
@@ -58,5 +65,3 @@ En esta imagen se describe todo el modelo de GUI de la seccion de Admin del soft
 
 
 En caso de no apreciarse bien la imagen, con el siguiente [llnk](https://lucid.app/lucidchart/f028b547-b400-4eeb-b9eb-30760491aef1/edit?viewport_loc=-2716%2C330%2C8592%2C4647%2C0_0&invitationId=inv_bb418780-a849-4bd3-b767-c87482ee7e28) puede acceder al sitio donde esta alojado y visualizarlo de una mejor manera.
-
-## Inventarios de pruebas
