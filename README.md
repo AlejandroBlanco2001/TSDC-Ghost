@@ -29,6 +29,10 @@ La instalación se realizó [utilizando docker](https://github.com/AlejandroBlan
 
 Se realizaron en total 35 pruebas pruebas exploratorias, que se pueden encontrar [en el siguiente enlace](https://docs.google.com/spreadsheets/d/1gklaQxAkydfXaS4hcxnZuxBSZgT-lZ4tlIORC-qoN8I/edit?usp=sharing)
 
+## Reporte de incidencias
+
+El reporte de incidencias se encuentra en el [siguiente link](https://github.com/AlejandroBlanco2001/TSDC-Ghost/issues)
+
 ## Modelo de dominio
 ### Glosario
 | Tabla                      | Descripción                                                                                                                                       | Tipo de Entidad |
